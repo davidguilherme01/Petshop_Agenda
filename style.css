@@ -1,0 +1,185 @@
+/* RESET BÁSICO */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  display: flex;
+  height: 100vh;
+  background: #f7f7f7;
+}
+
+.sidebar {
+  width: 260px;
+  background: #ffffff;
+  border-right: 1px solid #e4e4e4;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  background-color: #1e1e2a;
+}
+
+.sidebar .logo {
+  font-size: 22px;
+  font-weight: bold;
+  color: #333;
+}
+
+.content {
+  flex: 1;
+  padding: 40px;
+}
+
+.top-bar h1 {
+  font-size: 28px;
+  margin-bottom: 5px;
+}
+
+.top-bar p {
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.date-picker input {
+  padding: 10px;
+  font-size: 16px;
+}
+
+.header-content {
+    
+    display: flex;
+    align-items: center;
+    gap: 10px; 
+    font-size: 14px;
+    padding-bottom: 15px;
+}
+
+.period {
+  background: #ffffff;
+  border: 1px solid #e4e4e4;
+  border-radius: 10px;
+  padding: 20px;    
+  min-height: 150px;
+  
+}
+
+.period h2 {
+  font-size: 20px;
+  padding-bottom: 10px;
+  display: flex;
+  gap:10px;
+  color: white;
+  justify-content: space-between; 
+  align-items: center; 
+  color: white;
+  
+  
+}
+
+
+.period h2 span {
+  font-size: 14px;
+  color: #777;
+  
+}
+
+.appointments {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.new-appointment {
+  margin-top: 40px;
+  padding: 15px 20px;
+  background: #6a5acd;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.new-appointment:hover {
+  background: #5a4ac4;
+}
+
+
+
+.period{    
+  background: #1e1e2a;
+  border-radius: 12px;
+  
+}
+
+.appointment-card {
+  /* Pode mudar dependendo 
+  background: #2a2a36; 
+  border-radius: 10px;*/
+
+  
+  color: #fff;
+  display: flex;
+  padding: 14px 16px;
+  align-items: center;
+  gap: 16px;
+  justify-content: space-between;
+  font-size: 14px;
+  border-top: 1px solid #3c3c4e; 
+  
+  
+  
+
+  
+}
+
+
+.appointment-card .time {
+  font-size: 14px;
+  font-weight: bold;
+  width: 70px;
+  
+}
+
+.appointment-card .info {
+  
+  display: flex;
+  gap: 4px;
+  text-align: left;
+  
+  
+}
+
+.appointment-card .info strong {
+  font-size: 12px;
+  
+}
+
+.appointment-card .info span {
+  font-size: 12px;
+  color: #aaa;
+}
+
+.appointment-card .service {
+  
+  font-size: 12px;
+  color: #777;
+  
+  
+}
+
+.remove {
+  background: transparent;
+  border: none;
+  color: #ff6961;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.remove:hover {
+  color: #ffaaaa;
+}
