@@ -1,10 +1,10 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="style.css" class="css">
+    <title>Sua Agenda</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
@@ -15,140 +15,116 @@
 <main class="content">
 
   <header class="top-bar">
+    <div class="top-bar-text">
     <h1>Sua agenda</h1>
     <p>Aqui você pode ver todos os clientes e serviços agendados para hoje.</p>
+    </div>
 
     <div class="date-picker">
       <input type="date" id="agenda-date" />
     </div>
+
   </header>
 
   <section class="agenda">
 
-    <!-- Manhã -->
-
-<div class="period morning">
-    <h2>
-        <div class="header-content"> <img src="SOL.png" alt="">
-            Manhã
-        </div>
-        <span>09h-12h</span>
-    </h2>
-
-    <div class="appointments">
-
-      
-    <div class="appointment-card">
-
-            
-            <div class="info">
-            <div class="time">09:00</div>
-            <strong>Apollo</strong>
-            <span>/ Apollo</span>
+    <div class="period morning">
+        <h2>
+            <div class="header-content"> 
+                <img src="SOL.png" alt="Sol"> Manhã
             </div>
-            <div class="service">Vacinação</div>
-            <button class="remove">✖</button>
+            <span>09h-12h</span>
+        </h2>
 
+        <div class="appointments">
+            <div class="appointment-card">
+                <div class="info">
+                    <div class="time">09:00</div>
+                    <div class="details">
+                        <strong>Apollo</strong>
+                        <span>/ Apollo</span>
+                    </div>
+                </div>
+                <div class="service">Vacinação</div>
+                <button class="remove">✖</button>
+            </div>
         </div>
     </div>
-
-
-
-  </div>
     
-    
-
-    <!-- Tarde -->
-<div class="period afternoon">
-    <h2>
-        <div class="header-content"> <img src="SOLTARDE.png" alt="">
-            Tarde
-        </div>
-        <span>13h-18h</span>
-    </h2>
+    <div class="period afternoon">
+        <h2>
+            <div class="header-content"> 
+                <img src="SOLTARDE.png" alt="Sol Tarde"> Tarde
+            </div>
+            <span>13h-18h</span>
+        </h2>
   
-    <div class="appointments">
-
-    <div class="appointment-card">
-    
-    <div class="info">
-        <div class="time">13:00</div>
-        <strong>Milka</strong>
-        <span>/ Lucas Thomaz</span>
-    </div>
-    
-  <div class="service">Corte de Unhas</div>
-  <button class="remove">✖</button>
-
-    </div>
-
-    <div class="appointments">
-
-        <div class="appointment-card">
-            
-            <div class="info">
-            <div class="time">14:00</div>
-            <strong>Finn</strong>
-            <span>/ Renata Eliah</span>
+        <div class="appointments">
+            <div class="appointment-card">
+                <div class="info">
+                    <div class="time">13:00</div>
+                    <div class="details">
+                        <strong>Milka</strong>
+                        <span>/ Lucas Thomaz</span>
+                    </div>
+                </div>
+                <div class="service">Corte de Unhas</div>
+                <button class="remove">✖</button>
             </div>
-            <div class="service">Aplicação de Anti-pulgas</div>
-            <button class="remove">✖</button>
-        </div>
-    </div>
 
-     <div class="appointments">
-
-        <div class="appointment-card">
-            
-            <div class="info">
-              <div class="time">15:00</div>
-            <strong>Lady</strong>
-            <span>/ Gyan Fragga</span>
+            <div class="appointment-card">
+                <div class="info">
+                    <div class="time">14:00</div>
+                    <div class="details">
+                        <strong>Finn</strong>
+                        <span>/ Renata Eliah</span>
+                    </div>
+                </div>
+                <div class="service">Aplicação de Anti-pulgas</div>
+                <button class="remove">✖</button>
             </div>
-            <div class="service">Tose Higiênica</div>
-            <button class="remove">✖</button>
-        </div>
+
+            <div class="appointment-card">
+                <div class="info">
+                    <div class="time">15:00</div>
+                    <div class="details">
+                        <strong>Lady</strong>
+                        <span>/ Gyan Fragga</span>
+                    </div>
+                </div>
+                <div class="service">Tose Higiênica</div>
+                <button class="remove">✖</button>
+            </div>
+        </div> 
     </div>
 
-
-
-    </div> 
-</div>
-
-    <!-- Noite -->
-
- <div class="period night">
-    <h2>
-        <div class="header-content"> <img src="LUA.png" alt="">
-            Noite
-        </div>
-        <span>19h-21h</span>
-    </h2>
+    <div class="period night">
+        <h2>
+            <div class="header-content"> 
+                <img src="LUA.png" alt="Lua"> Noite
+            </div>
+            <span>19h-21h</span>
+        </h2>
   
-    <div class="appointments">
-
-    <div class="appointment-card">
-    
-    <div class="info">
-      <div class="time">20:00</div>
-        <strong>Bolt</strong>
-        <span>/ Arthur de Souza</span>
+        <div class="appointments">
+            <div class="appointment-card">
+                <div class="info">
+                    <div class="time">20:00</div>
+                    <div class="details">
+                        <strong>Bolt</strong>
+                        <span>/ Arthur de Souza</span>
+                    </div>
+                </div>
+                <div class="service">Limpeza de Dentes</div>
+                <button class="remove">✖</button>
+            </div>
+        </div>
     </div>
-    
-  <div class="service">Limpeza de Dentes</div>
-  <button class="remove">✖</button>
-</div>
-
-
-    
 
   </section>
 
   <button class="new-appointment">Novo agendamento</button>
 </main>
 
-
-
-    
 </body>
 </html>
